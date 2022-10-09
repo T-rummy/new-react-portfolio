@@ -1,38 +1,71 @@
-.App {
+/* The navigation bar */
+body {
+  background-color: #d8d8d8;
+}
+
+.navbar {
+  /* overflow: hidden; */
+  background-color: #d8d8d8;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+  border-bottom: solid 1px black;
+}
+.footbar {
+      /* overflow: hidden; */
+      background-color: #d8d8d8;
+      
+      /* Set the navbar to fixed position */
+      bottom: 0;
+      /* Position the navbar at the top of the page */
+      width: 100%;
+      /* Full width */
+      border-top: solid 1px black;
+    
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
   text-align: center;
+  padding: 14px 3px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: -10px;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #dfe0e1;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name {
+  float: left;
+  font-size: small;
+  width: 25%;
+  margin-left: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
-
-.App-link {
-  color: #61dafb;
+.my-2 {
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 25px;
+  border: solid black 2px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bio {
+text-align: center;
+  width: 75%;
+  margin-left: 45px;
 }
