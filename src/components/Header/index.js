@@ -3,9 +3,15 @@ import Navigation from '../Navigation';
 
 function Header() {
   return (
-    <div>
-    <Navigation/>
-       </div>
+        <header>
+
+        <h1 >Tanner. </h1>
+    
+        
+
+       <Navigation/>
+
+    </header>
   );
 }
 
