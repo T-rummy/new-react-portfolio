@@ -5,7 +5,7 @@ function Header() {
   return (
         <header>
 
-        <h1 >Tanner. </h1>
+        <h1 >Tanner Ruminer </h1>
     
         
 

@@ -14,9 +14,9 @@ function About() {
 
            <img src={coverImage} alt="Headshot"/>
 
-           <p> Hello! My name is Tanner Ruminer. I am a full time college student majoring
-               in finance at the University of Central Oklahoma. I am currently residing in dallas
-               where I am attending SMU's Full stack coding Bootcamp. 
+           <p> Hello! My name is Tanner Ruminer. I am a Full stack (MERN) developer and full time college student majoring
+               in Management Information Sysytems at the University of Central Oklahoma. I'm always looking for new challenges to grow my skill set / value
+               as a developer! 
             </p>
 
         </div>

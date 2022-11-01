@@ -6,6 +6,7 @@ import Project from './components/Project';
 import About from './components/About';
 import Contact from './components/Contact';
 import Resume from './assets/pages/index.js';
+import Footer from './components/Footer';
 
 
 
@@ -20,6 +21,7 @@ function App() {
            <Project/>
            <Resume/>
            <Contact/>
+           <Footer/>
            </div>
 
     
