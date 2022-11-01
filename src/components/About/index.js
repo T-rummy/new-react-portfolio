@@ -3,16 +3,27 @@ import coverImage from "../../assets/cover/headshot.jpg";
 function About() {
 
   return (
-    <section className="about">
-  
-       <img src={coverImage} className="my-2" style={{ width: "90%" }} alt="cover" /> 
-      <div>
-        <p className="bio">
-         Hello! My name is Tanner Ruminer, I am a full stack developer (MERN) based out of Dallas, TX. I am currently pursuing my bachelors in (MIS) Managaement information
-         systems at the University of Central Oklahoma.
-      </p>
-      </div>
+    <div>
+     <a href="#home"> <h1 id="about-me" class="header-mod">ABOUT ME </h1> </a>
+    
+    <section class="info">
+
+           
+
+        <div class="bio-box"> 
+
+           <img src={coverImage} alt="Headshot"/>
+
+           <p> Hello! My name is Tanner Ruminer. I am a full time college student majoring
+               in finance at the University of Central Oklahoma. I am currently residing in dallas
+               where I am attending SMU's Full stack coding Bootcamp. 
+            </p>
+
+        </div>
+
     </section>
+    </div>
+    
   )
 }
 export default About;

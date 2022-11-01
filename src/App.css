@@ -500,7 +500,7 @@ text-align: center;
 
  .navigation a {
    color: #d9b6b6;
-   font-size: 30px;
+   font-size: 20px;
    font-display: center;
    text-decoration: none;
 
@@ -606,6 +606,7 @@ text-align: center;
  .portfolio-blocks a {
    text-decoration: none;
  }
+
 
  .port-box {
    margin: 20px 20px;

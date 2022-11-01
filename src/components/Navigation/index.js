@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Navigation() {
   
 return (
 
 
-     <nav class="navigation">
+     <nav className="navigation">
             <ul>
                 <li> 
                 <a href="#about-me">About Me</a>
@@ -18,6 +18,10 @@ return (
 
                 <li> 
                 <a href="#contact">Contact</a>
+                </li>
+
+                <li> 
+                <a href="#contact">Resume</a>
                 </li>
 
              </ul>
