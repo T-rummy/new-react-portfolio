@@ -8,6 +8,42 @@ return (
 <div>
              <a href="#home"><h1 id="contact" className="header-mod"> CONTACT </h1></a>
 
+                 <form className="home-form">
+    
+            
+            
+                <input  className='placehold col-9 col-md-3 my-lg-5 mx-md-auto'
+                        type="text" 
+                        placeholder="Name" 
+                        name='name' 
+                        id='name'
+                        
+                        
+                        required/>
+    
+                                    
+                <input  className='placehold col-9 col-md-3 my-lg-5 mx-md-auto'
+                        type="email" 
+                        placeholder="Email" 
+                        name='email' 
+                        id='email'
+                        
+                        
+                        required/>
+
+                
+                <textarea  className='placehold col-9 col-md-3 my-lg-5 mx-md-auto' 
+                        type="text"
+                        placeholder='Message'
+                        
+                         
+                        
+                        required/>
+
+               <button  type="submit"  className='button col-9 col-md-3 my-lg-5 mx-md-auto'>Contact</button>
+
+    </form>
+
      <section className="info"/>
 
         <address className="contact"/>

@@ -1,426 +1,4 @@
-/* body {
-  background-color: #d8d8d8;
-}
 
-.navbar {
-  background-color: #d8d8d8;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  border-bottom: solid 1px black;
-  height: 60px;
-}
-.footbar {
-      background-color: #d8d8d8;
-      
-      bottom: 0;
-      width: 100%;
-      border-top: solid 1px black;
-      text-align: center;
-    
-}
-
-.navbar a {
-  float: right;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 3px;
-  text-decoration: none;
-  font-size: 15px;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: -10px;
-  font-weight: bold;
-}
-.test {
-  color: black;
-  font-size: x-large;
-  height: 500px;
-}
-
-.navbar a:hover {
-  background: #dfe0e1;
-  color: black;
-}
-
-.name {
-  float: left;
-  font-size: small;
-  width: 25%;
-  margin-left: 10px;
-  margin-top: 25px;
-}
-.about {
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-.my-2 {
-  margin-left: 5%;
-  height: auto;
-  margin-top: 30px;
-  border-radius: 25px;
-  border: solid black 2px;
-}
-.bio {
-text-align: center;
-  width: 75%;
-  margin-left: 200px;
-} */
-
-
-
- /* * {
-   margin: 0;
-   box-sizing: border-box;
- }
-
- a,
- a:hover,
- a:focus,
- a:active {
-   text-decoration: none;
-   color: inherit;
- }
-
- .nav-text {
-   font-size: large;
- }
-
- main {
-   margin-top: 0;
- }
-
- body {
-   font-family: "GT Pressura";
-   background-color: black;
-   height: max-content;
-   padding-left: 5.2%;
-   padding-right: 6%;
-
-
- }
-
- header {
-   z-index: 9999;
-   background-color: black;
-   display: flex;
-   justify-content: space-between;
-   position: sticky;
-   top: 0;
-   position: -webkit-sticky;
-   background-size: cover;
-   background-attachment: fixed;
-   background-position: 80%;
-   height: 130px;
-   width: 102.5%;
-   flex-direction: row;
-   flex-wrap: wrap;
- }
-
- .header-img {
-   height: 85px;
-   padding-bottom: 15px;
-   margin-top: 37px;
- }
-
- .big-nav {
-   padding-right: 5px;
-   margin-right: 1.4%;
- }
-
- ul {
-   margin: 85px -3px -15px -10px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: flex-end;
-   list-style: none;
-   flex: auto;
-   flex-direction: row;
-   font-size: 16px;
- }
-
- li {
-   margin-left: 15px;
- }
-
- li:hover {
-   text-decoration: line-through;
-
-
- }
-
- .big-anc2 {
-   color: white;
-
-
- }
-
- .img-size {
-   width: 102%;
-   height: auto;
-   margin-top: 13px;
-   margin-left: 0px;
- }
-
- .placeholder {
-   background-color: gray;
-   width: 102%;
-   height: auto;
- }
-
- footer {
-   margin-bottom: 20px;
-   height: 100px;
- }
-
- .foot {
-   color: white;
-   margin-top: 10px;
-   font-size: 12px;
- }
-
- h1 {
-   text-align: end;
- }
-
- .top-img {
-   margin-top: 0;
- }
-
- .sm-nav {
-   margin: 50px 30px;
-   visibility: hidden;
-   color: white;
-   transform: scale(1.5);
- }
-
- i {
-   color: white;
-
- }
-
- .follow {
-   margin-top: 100px;
- }
-
- .overlay {
-   height: 0%;
-   width: 100%;
-   position: fixed;
-   z-index: 1;
-   left: 0;
-   top: 0;
-   background-color: rgb(0, 0, 0);
-
-   overflow-x: hidden;
-   transition: 0.5s;
- }
-
- .overlay-content {
-   position: relative;
-   top: 25%;
-   width: 100%;
-   text-align: center;
-   margin-top: 30px;
- }
-
- .overlay a {
-   padding: 8px;
-   text-decoration: none;
-   font-size: 36px;
-   color: #f1f1f1;
-   display: block;
-   transition: 0.5s;
- }
-
- .overlay a:hover,
- .overlay a:focus {
-   color: rgba(241, 241, 241, .5);
-   text-decoration: line-through;
- }
-
- .overlay .closebtn {
-   position: absolute;
-   top: 20px;
-   right: 45px;
-   font-size: 60px;
- }
-
- #loader {
-   margin-top: 25%;
-   margin-left: 43%;
-   z-index: 1;
-   width: 20px;
-   height: auto;
-   font-size: medium;
- }
-
- .case {
-   font-family: "GT Pressura Mono";
- }
-
-
- .big-font {
-   font-family: "GT Pressura";
- }
-
- .email {
-   text-align: left;
-
- }
-
- .animate-bottom {
-   position: relative;
-   -webkit-animation-name: animatebottom;
-   -webkit-animation-duration: 1s;
-   animation-name: animatebottom;
-   animation-duration: 1s
- }
-
- .logo:hover {
-   color: black;
- }
-
- @-webkit-keyframes animatebottom {
-   from {
-     bottom: -100px;
-     opacity: 0
-   }
-
-   to {
-     bottom: 0px;
-     opacity: 1
-   }
- }
-
- @keyframes animatebottom {
-   from {
-     bottom: -100px;
-     opacity: 0
-   }
-
-   to {
-     bottom: 0;
-     opacity: 1
-   }
- }
-
- #myDiv {
-   display: none;
-   text-align: center;
- }
-
- .rotate-img {
-   width: 150px;
- }
-
- @media screen and (max-height: 450px) {
-   .overlay a {
-     font-size: 20px
-   }
-
-   .overlay .closebtn {
-     font-size: 40px;
-     top: 15px;
-     right: 35px;
-   }
- }
-
- .move {
-   margin-left: 100px;
- }
-
- @media screen and (max-width: 900px) {
-   #loader {
-     margin-top: 125px;
-   }
-
-   .follow {
-     margin-top: 150px;
-   }
- }
-
- @media screen and (max-width: 767px) {
-   .secnd-img {
-     margin-top: 15px;
-   }
-
-   .rotate-img {
-     margin-top: 25%;
-   }
- }
-
-
- @media screen and (max-width: 640px) {
-   header {
-     width: 102%;
-
-   }
-
-   .img-size {
-     width: 100%;
-   }
-
-   body {
-     background-color: black;
-     height: fit-content;
-   }
-
-   ul {
-     margin: 85px 7px -15px -10px;
-   }
- }
-
- @media screen and (max-width: 550px) {
-   #loader {
-     margin-top: 70%;
-     margin-left: 100px;
-   }
-
-   .hide-bg-nav {
-     visibility: hidden;
-   }
- }
-
- @media screen and (max-width: 545px) {
-
-   .sm-nav {
-     visibility: visible;
-   }
-
-   .img-size {
-     width: 101%;
-   }
-
- }
-
- @media screen and (max-width: 500px) {
-   .foot {
-     font-size: 8px;
-   }
-
-   nav {
-     padding-right: 5px;
-     margin-top: -115px;
-     margin-left: 55px;
-   }
-
-   .animated-icon3 {
-     margin-top: 150px;
-   }
- }
-
- @media screen and (max-width: 392px) {
-   ul {
-     margin: 85px 0 0 0;
-     padding-left: 0px;
-   }
-
-   nav {
-     padding-top: 0px;
-   }
- } */
 
  * {
    margin: 0;
@@ -497,6 +75,45 @@ text-align: center;
    flex-direction: row;
 
  }
+ .resume {
+   width: 100vw;
+ }
+ .placehold {
+   background: transparent;
+   display: flex;
+   margin-top: 10px;
+   /* padding: 20px 10px 5px 0; */
+   border-radius: 35px;
+   line-height: 45px;
+   margin-left: 14%;
+   width: 300px;
+   border-color: rgb(42, 48, 39);
+   text-indent: 5%;
+   color: black;
+   vertical-align: middle;
+ }
+
+ ::placeholder {
+   color: rgb(42, 48, 39);
+   text-align: left;
+   margin-right: 80px;
+ }
+
+ .button {
+   background: rgb(42, 48, 39);
+   display: flex;
+   margin-top: -30px;
+   border-radius: 35px;
+   line-height: 45px;
+   margin-left: 14%;
+   width: 300px;
+   border-color: transparent;
+   text-indent: 85px;
+   color: #d9b6b6;
+   font-size: larger;
+   letter-spacing: 3px;
+   margin-top: -5px;
+ }
 
  .navigation a {
    color: #d9b6b6;
@@ -545,7 +162,7 @@ text-align: center;
  }
 
  .info {
-
+  text-align: center;
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
@@ -613,7 +230,6 @@ text-align: center;
  }
 
  .port-img {
-   /* background-image: url("../images/hero1-bg.jpg"); */
    background-size: 135%;
    background-position-y: bottom;
  }
@@ -650,7 +266,7 @@ text-align: center;
    font-size: 25px;
  }
 
- .nutri {}
+ 
 
  /* Contact Section */
 
@@ -666,7 +282,7 @@ text-align: center;
    flex-direction: row;
    flex-wrap: nowrap;
    justify-content: flex-start;
-   align-items: center;
+   text-align: center;
    font-size: 25px;
  }
 
@@ -681,7 +297,7 @@ text-align: center;
 
  /* Media Queries */
 
- @media screen and (max-width: 980px) {}
+
 
 
  @media screen and (max-width: 640px) {

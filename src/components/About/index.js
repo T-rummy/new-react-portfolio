@@ -6,11 +6,11 @@ function About() {
     <div>
      <a href="#home"> <h1 id="about-me" class="header-mod">ABOUT ME </h1> </a>
     
-    <section class="info">
+    <section className="info">
 
            
 
-        <div class="bio-box"> 
+        <div className="bio-box"> 
 
            <img src={coverImage} alt="Headshot"/>
 
