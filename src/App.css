@@ -18,6 +18,33 @@
    min-width: fit-content;
 
  }
+ .business-card {
+   width: 400px;
+   height: 200px;
+   font-family: roboto;
+   position: absolute;
+   top: 50%;
+   left: 10%;
+   text-align: center;
+   padding-top: 15px;
+  border-radius: 19px;
+    background: #d9b6b6;
+    box-shadow: 5px 5px 7px #d0afaf,
+      -5px -5px 7px #e2bdbd;
+
+ }
+ .business-card p {
+font-size: 50px;
+color: rgba(0, 0, 0);
+text-transform: uppercase;
+text-shadow: .3px .3px .5px  rgba(0, 0, 0),
+   -.5px -.5px  1px rgba(0, 0, 0);  
+ }
+
+ .github {
+   margin-top: 50%;
+   position: relative;
+ }
 
  /* Header Section */
  header {

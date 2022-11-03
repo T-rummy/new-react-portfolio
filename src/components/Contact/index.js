@@ -8,7 +8,7 @@ return (
 <div>
              <a href="#home"><h1 id="contact" className="header-mod"> CONTACT </h1></a>
 
-                 <form className="home-form">
+                 <form className="home-form" method="POST" action="https://getform.io/f/0c6f19ae-9ddc-4092-8023-7355af8a4d2f">
     
             
             
@@ -34,14 +34,15 @@ return (
                 
                 <textarea  className='placehold col-9 col-md-3 my-lg-5 mx-md-auto' 
                         type="text"
+                        name="message"
                         placeholder='Message'
                         
                          
                         
                         required/>
 
-               <button  type="submit"  className='button col-9 col-md-3 my-lg-5 mx-md-auto'>Contact</button>
-
+               <button  type="submit"  href="https://buy.stripe.com/test_3cs00w9gV99MbwAcMN" className='button col-9 col-md-3 my-lg-5 mx-md-auto'>Contact</button>
+<               a href="https://buy.stripe.com/test_3cs00w9gV99MbwAcMN" className='button col-9 col-md-3 my-lg-5 mx-md-auto'>Donate $1</a>
     </form>
 
      <section className="info"/>
