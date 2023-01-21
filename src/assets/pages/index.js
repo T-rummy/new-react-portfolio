@@ -5,11 +5,11 @@ import resume2 from "../../assets/cover/resume2.jpg";
 
 function Resume() {
   return (
-       <div>
-           <a href="#resume"> <h1 id="resume" class="header-mod">Resume </h1> </a>
+       <div className='width'>
+           <a href="#resume"> <h1 id="resume" class=" mx-0 header-mod">Resume </h1> </a>
         <img className="resume" src={resume1} alt="resume"/>
         <img className="resume" src={resume2} alt="resume"/>
-        <a  href="../../assets/cover/resume2.jpg" type="submit"  className='button col-9 col-md-3 my-lg-5 mx-md-auto' download>Download</a>
+        <a  href="../../assets/cover/resume2.jpg" type="submit"  className='button mt-5  mb-5 col-9 col-md-3 my-lg-5 mx-md-auto' download>Download</a>
        </div>
   );
 }

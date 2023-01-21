@@ -41,8 +41,8 @@ return (
                         
                         required/>
 
-               <button  type="submit"  href="https://buy.stripe.com/test_3cs00w9gV99MbwAcMN" className='button col-9 col-md-3 my-lg-5 mx-md-auto'>Contact</button>
-<               a href="https://buy.stripe.com/test_3cs00w9gV99MbwAcMN" className='button col-9 col-md-3 my-lg-5 mx-md-auto'>Donate $1</a>
+               <button  type="submit"  href="https://buy.stripe.com/test_3cs00w9gV99MbwAcMN" className='button col-9 mt-5 mb-5 col-md-3 my-lg-5 mx-md-auto'>Contact</button>
+<               a href="https://buy.stripe.com/test_3cs00w9gV99MbwAcMN" className='button col-9 mt-5 mb-5 col-md-3 my-lg-5 mx-md-auto'>Donate $1</a>
     </form>
 
      <section className="info"/>
